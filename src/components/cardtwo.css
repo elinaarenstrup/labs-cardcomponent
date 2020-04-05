@@ -1,0 +1,80 @@
+.card2 {
+  position: relative;
+  left: 20px;
+  top: 115px;
+  width: 371px;
+  height: 372px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.title2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 371px;
+  height: 186px;
+  border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.title2:hover {
+  height: 372px;
+  border-radius: 8px;
+}
+
+.title2:hover + .emoji2 {
+  height: 0;
+}
+
+.card2 h2 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.emoji2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 371px;
+  height: 186px;
+  border-radius: 0px 0px 8px 8px;
+  overflow: hidden;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.emoji2:hover {
+  height: 372px;
+  border-radius: 8px;
+}
+
+.card2 span {
+  font-size: 100px;
+}
+
+/*** LEMON STYLING ***/
+
+.lemon2 .title2 {
+  background: #8cffba;
+}
+
+.lemon2 h2 {
+  color: #166f39;
+}
+
+.lemon2 .emoji2 {
+  background: #cfffe2;
+}
